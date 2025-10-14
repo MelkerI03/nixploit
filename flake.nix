@@ -1,5 +1,5 @@
 {
-  description = "CTF addon for home-manager";
+  description = "Modular home-manager flake for a CTF/pentesting environment";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
@@ -9,7 +9,7 @@
     { ... }:
     {
       # Export a Home Manager module
-      homeManagerModules.ctf =
+      homeManagerModules.nixploit =
         { pkgs, ... }:
         {
           home.packages = with pkgs; [

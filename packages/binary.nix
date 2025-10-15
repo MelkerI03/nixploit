@@ -2,7 +2,6 @@
 with pkgs;
 [
   gdb
-  pwndbg
   gef
   checksec
   ropgadget

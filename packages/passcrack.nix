@@ -2,5 +2,4 @@
 with pkgs;
 [
   hashcat
-  hydra
 ]

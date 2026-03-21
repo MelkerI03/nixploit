@@ -1,7 +1,7 @@
 { pkgs, ... }:
 with pkgs;
 [
-  wireshark-qt
+  wireshark
   tcpdump
   tcpflow
 ]

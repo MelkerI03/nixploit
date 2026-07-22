@@ -2,7 +2,7 @@
   description = "Modular home-manager flake for a CTF/pentesting environment";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
   };
 
   outputs =
